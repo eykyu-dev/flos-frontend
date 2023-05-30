@@ -4,7 +4,7 @@ import './navbar.css'
 function NavBar() {
   return (
     <div className='nav-bar'>
-      <div className='logo'>GREENMIND</div>
+      <div className='logo'>flos</div>
       <div className='header-buttons'>
         <button>Home</button>
         <button>Products</button>
