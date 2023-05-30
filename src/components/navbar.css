@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.logo{
+  font-family:inter;
+  font-weight:200;
+  font-size:30px;
+  display:flex;
+  padding-left: 2vw;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.header-buttons{
+  display: flex;
+  justify-content: space-evenly;
+  grid-column: 2;
+}
+
+.nav-bar{
+  border: 1px dotted red;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  height: 10vh;
+}
+
+.cart-button{
+  grid-column: 5;
+  justify-self: end;
+  padding-right: 3vw;
+}
