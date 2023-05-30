@@ -1,7 +1,7 @@
-
 import NavBar from './components/navbar'
 import HomeBlock from './components/homeblock'
 import './App.css'
+
 
 function App() {
 
