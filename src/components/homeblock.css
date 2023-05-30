@@ -1,8 +1,23 @@
 .outer-block{
-    border: 1px dotted red;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border-radius: 10px;
+    border-radius: 30px;
+    background-color: #c1dcdc;
+    height: 55vh;
+}
 
-    height:20vh;
+
+.graphic{
+    width: 350px;
+    height: 350px;
+    background-color: black;
+    border-radius: 50%;
+    justify-items:baseline;
+}
+
+img{
+    display:flex;
+    height:75%;
+    width:75%;
+
 }
