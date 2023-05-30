@@ -1,11 +1,14 @@
-import { useState } from 'react'
+
 import NavBar from './components/navbar'
+import HomeBlock from './components/homeblock'
+import './App.css'
 
 function App() {
 
   return (
-    <div>
+    <div className='home-page' >
       <NavBar></NavBar>
+      <HomeBlock></HomeBlock>
     </div>
   )
 }
