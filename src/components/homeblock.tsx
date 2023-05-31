@@ -8,8 +8,8 @@ return(
             hello
         </div>
         <div className='graphic'>
-        <div className="circle"></div>
-        <img src={PlantImage}></img>
+            <div className="circle"></div>
+            <img src={PlantImage}></img>
         </div>
     </div>
 )

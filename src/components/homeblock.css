@@ -8,12 +8,15 @@
 
 
 .graphic{
-    width: 350px;
-    height: 350px;
-    background-color: black;
-    border-radius: 50%;
-    justify-items:baseline;
+    justify-content:flex-end;
 }
+.circle{
+    background-color: black;
+    height:10vh;
+    width:10vh;
+    border-radius: 200px 200px 0px 200px;
+}
+
 
 img{
     display:flex;
