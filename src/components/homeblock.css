@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.vertical-line{
+    align-self:center;
+    width: 1px;
+    height: 64px; 
+    background-color:  #1E1E1E; 
+    margin: 0 auto;
+}
+
+h2{
+    justify-self:center;
+    font-family:poppins;
+    font-weight:500;
+    size:32px;
+}
 .outer-block{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -7,20 +23,47 @@
 }
 
 
-.graphic{
-    justify-content:flex-end;
+.home-text{
+    grid-column:1;
+    grid-template-rows: 0.5fr 0.5fr 1fr;
+    display:grid;
+    margin-left:7%;
+    margin-top:7%;
 }
-.circle{
-    background-color: black;
-    height:10vh;
-    width:10vh;
-    border-radius: 200px 200px 0px 200px;
+
+.sub-text{
+    display:grid;
+    grid-template-columns: 0.3fr 0.1fr 0.3fr;
+}
+.graphic{
+    display:grid;
+    justify-items:center;
+    align-items:flex-end;
 }
 
 
 img{
-    display:flex;
-    height:75%;
-    width:75%;
+    height:513.98px;
+    width:411px;
+    position:absolute;
+    margin-left:5%;
+    z-index:2;
+}
 
+.circle{
+    background-color:#1E1E1E;
+    height:400px;
+    width:450px;
+    border-radius: 200px 200px 0px 200px;
+    position:absolute;
+    align-self:flex-end;
+    z-index:1;
+}
+
+#slogan{
+    margin: 0;
+    font-family:poppins;
+    font-weight:800px;
+    font-size:64px;
+    line-height:64px;
 }

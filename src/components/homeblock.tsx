@@ -5,7 +5,12 @@ function HomeBlock(){
 return(
     <div className="outer-block">
         <div className="home-text">
-            hello
+            <h1 id="slogan">Buy your <br></br> Dream Plants</h1>
+            <div className="sub-text">
+                <h2>50+<br></br> Plant Species</h2>
+                <div className="vertical-line"></div>
+                <h2>100+<br></br>Customers</h2>
+            </div>
         </div>
         <div className='graphic'>
             <div className="circle"></div>
