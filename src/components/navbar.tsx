@@ -6,8 +6,8 @@ function NavBar() {
       <div className='logo'>flos</div>
       <div className='header-buttons'>
         <button>Home</button>
-        <button>Products</button>
-        <button>Contacts</button>
+        <button disabled>Products</button>
+        <button disabled>Contacts</button>
       </div>
       <button className='cart-button'>Cart</button>
     </div>

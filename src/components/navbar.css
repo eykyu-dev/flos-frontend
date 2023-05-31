@@ -31,6 +31,48 @@ button {
 }
 
 
+button {
+  background-color: transparent;
+  border: none;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+button:disabled{
+  background-color: transparent;
+  border: none;
+  color: #8f8f8f;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
 .header-buttons{
   display: flex;
   justify-content: space-evenly;
