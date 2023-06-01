@@ -1,0 +1,28 @@
+.input-box{
+    display: grid;
+    grid-template-columns:1fr .15fr;
+    background-color:white;
+    width: 449px;
+    height:64px;
+    border-radius: 12px;
+    justify-content:start;
+    align-content:center;
+}
+
+
+input{
+    font-family:poppins;
+    border:none;
+    outline:none;
+    background-color:transparent;
+    font-size:1.2rem;
+    height:64px;
+    width:95%;
+    margin-left:5%;
+}
+
+#search-icon{
+    height:100%;
+    width:100%;
+
+}

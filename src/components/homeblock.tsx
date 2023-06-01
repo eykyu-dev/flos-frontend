@@ -1,5 +1,6 @@
 import './homeblock.css'
 import PlantImage from '../../src/unsplash_cLaaxa4DSnc-removebg-preview 1.png'
+import SearchBar from './searchbar'
 
 function HomeBlock(){
 return(
@@ -11,6 +12,7 @@ return(
                 <div className="vertical-line"></div>
                 <h2>100+<br></br>Customers</h2>
             </div>
+            <SearchBar></SearchBar>
         </div>
         <div className='graphic'>
             <div className="circle"></div>
