@@ -1,6 +1,7 @@
 import NavBar from './components/navbar'
 import HomeBlock from './components/homeblock'
 import './App.css'
+import ItemShowcase from './components/itemshowcase'
 
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
     <div className='home-page' >
       <NavBar></NavBar>
       <HomeBlock></HomeBlock>
+      <hr></hr>
+      <ItemShowcase></ItemShowcase>
     </div>
   )
 }

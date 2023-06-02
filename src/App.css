@@ -2,3 +2,8 @@
     margin-left: 17%;
     margin-right: 17%;
 }
+
+hr{
+    height:65px;
+    visibility: hidden ;
+}

@@ -1,0 +1,45 @@
+
+.item-box{
+    display:grid;
+    grid-template-rows: 1fr 0.3fr;
+    width: 299.33px;
+    height: 436px;
+    justify-items:center;
+
+
+}
+
+#plantimage{
+    width:100%;
+    height: 363px;
+    border-radius:12px;
+}
+
+
+.item-info{
+    height:100%;
+    width:100%;
+    margin-top:10px;
+    justify-items:start;
+}
+
+.item-name{
+    width: 135px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.item-price{
+    width: 92px;
+    height: 27px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(30, 30, 30, 0.5);
+}

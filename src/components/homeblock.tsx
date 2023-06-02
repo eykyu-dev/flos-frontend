@@ -16,7 +16,7 @@ return(
         </div>
         <div className='graphic'>
             <div className="circle"></div>
-            <img src={PlantImage}></img>
+            <img src={PlantImage} alt="hand carrying a plant" id="carriedplant"></img>
         </div>
     </div>
 )
