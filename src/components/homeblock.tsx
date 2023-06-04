@@ -1,5 +1,4 @@
 import './homeblock.css'
-import PlantImage from "../../public/handplant.png"
 import SearchBar from './searchbar'
 
 function HomeBlock(){
@@ -16,7 +15,7 @@ return(
         </div>
         <div className='graphic'>
             <div className="circle"></div>
-            <img src={PlantImage} alt="hand carrying a plant" id="carriedplant"></img>
+            <img src={"/handplant.png"} alt="hand carrying a plant" id="carriedplant"></img>
         </div>
     </div>
 )
