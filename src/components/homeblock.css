@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 
-h2{
+.store-stats{
     justify-self:center;
     font-family:poppins;
     font-weight:500;
@@ -19,8 +19,8 @@ h2{
     grid-template-columns: repeat(2, 1fr);
     border-radius: 30px;
     background-color: #c1dcdc;
-    width:1248px;
-    height:512px;
+    width:65vw;
+    height:56vh;
 }
 
 

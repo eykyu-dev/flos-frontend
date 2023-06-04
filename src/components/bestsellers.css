@@ -1,0 +1,49 @@
+.best-sellers{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.description-box{
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 196px;
+    height: 264px;
+    left: 96px;
+    top: 732px;
+}
+
+#heading{
+    color: #1E1E1E;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    margin:0 0;
+}
+#subheading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(30, 30, 30, 0.5);
+}
+#see-more{
+    display: flex;
+    background-color: #c1dcdc;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 10px;
+    width: 168px;
+    height: 51px;
+    border-radius:8px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}

@@ -2,6 +2,7 @@ import NavBar from './components/navbar'
 import HomeBlock from './components/homeblock'
 import './App.css'
 import ItemShowcase from './components/itemshowcase'
+import BestSellers from './components/bestsellers'
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <NavBar></NavBar>
       <HomeBlock></HomeBlock>
       <hr></hr>
-      <ItemShowcase></ItemShowcase>
+      <BestSellers></BestSellers>
     </div>
   )
 }

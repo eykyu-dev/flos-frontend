@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns:1fr .15fr;
     background-color:white;
-    width: 449px;
+    width: 49vh;
     height:64px;
     border-radius: 12px;
     justify-content:start;
@@ -22,7 +22,7 @@ input{
 }
 
 #search-icon{
-    height:100%;
-    width:100%;
-
+    justify-items:center;
+    align-items:center;
+    
 }

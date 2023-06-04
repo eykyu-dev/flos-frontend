@@ -5,7 +5,7 @@ function SearchBar(){
     return(
         <div className="input-box">
             <input placeholder="What are you looking for?"></input>
-            <button id="search-icon"><GoSearch size={25}/></button>
+            <button id="search-icon"><GoSearch size={24}/></button>
         </div>
     )
 }
