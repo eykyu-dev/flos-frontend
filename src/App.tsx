@@ -1,7 +1,7 @@
 import NavBar from './components/navbar'
 import HomeBlock from './components/homeblock'
 import './App.css'
-import ItemShowcase from './components/itemshowcase'
+// import ItemShowcase from './components/itemshowcase'
 import BestSellers from './components/bestsellers'
 
 
