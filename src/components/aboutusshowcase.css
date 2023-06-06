@@ -1,0 +1,41 @@
+.descript-box{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    display:flex;
+    background-color:#c1dcdc ;
+    width: 5vw;
+    height: 11vh;
+    border-radius: 50%;
+    justify-content:center;
+    align-items:center;
+}
+
+.icon svg{
+    width: 5vh; 
+    height: 5vh;
+}
+
+#descript-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vh;
+    margin-top:3.8vh;
+}
+
+#description{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vh;
+    text-align: center;
+    margin-top:0;
+
+    color: rgba(30, 30, 30, 0.5);
+}

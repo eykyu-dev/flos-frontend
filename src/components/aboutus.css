@@ -1,0 +1,40 @@
+.about-us{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.title{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#about{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5vh;
+    line-height: 5vh;
+    margin-bottom:0;
+}
+#about-descript{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vh;
+    text-align: center;
+    margin-top:0;
+    margin-bottom:5vh;
+    color: rgba(30, 30, 30, 0.5);
+
+}
+
+.info{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:baseline;
+
+}
