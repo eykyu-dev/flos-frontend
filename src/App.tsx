@@ -3,6 +3,7 @@ import HomeBlock from './components/homeblock'
 import './App.css'
 import BestSellers from './components/bestsellers'
 import AboutUs from './components/aboutus'
+import Categories from './components/categories'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <BestSellers></BestSellers>
       <hr></hr>
       <AboutUs></AboutUs>
+      <Categories></Categories>
     </div>
   )
 }
