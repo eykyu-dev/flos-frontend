@@ -47,31 +47,56 @@ button:disabled{
 }
 
 .header-buttons{
-  display: grid;
-  grid-auto-flow: column;
+  width:100%;
+  display: flex;
+  flex-direction:row;
   justify-content: space-evenly;
-  grid-column: 2;
+  padding-right: 50%;
+  padding-left:2%;
+  align-items:baseline;
+
 }
 
 .nav-bar{
-  display: grid;
-  grid-template-columns: 1fr, 1fr, 1fr, 1fr, 1fr;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
   align-items: center;
   height: 10vh;
 }
 
 .cart-button{
-  grid-column: 5;
+  
   justify-self: end;
   padding-right: 3vw;
 }
 
 
 .logo{
-  display:grid;
-  grid-column: 1;
   font-family: playfair;
   font-weight:400;
   font-size:48px;
-  padding-left: 2vw;
+}
+
+@media(max-width:1280px){
+  .header-buttons{
+    padding-right:20%;
+    padding-left:0%;
+  }
+}
+
+@media(max-width:768px){
+  .header-buttons{
+    padding-right:20%;
+    padding-left:0%;
+  }
+
+  button{
+    font-size:14px;
+  }
+
+  button:disabled{
+    font-size:14px;
+  }
+
 }

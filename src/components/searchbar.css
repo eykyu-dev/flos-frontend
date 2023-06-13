@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns:1fr .15fr;
     background-color:white;
-    width: 49vh;
-    height:64px;
+    width: 25vw;
+    height:5vh;
     border-radius: 12px;
     justify-content:start;
     align-content:center;
@@ -16,7 +16,7 @@ input{
     outline:none;
     background-color:transparent;
     font-size:1.2rem;
-    height:64px;
+    height:100%;
     width:95%;
     margin-left:5%;
 }

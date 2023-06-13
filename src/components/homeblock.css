@@ -3,7 +3,7 @@
 .vertical-line{
     align-self:center;
     width: 1px;
-    height: 64px; 
+    height: 5vh; 
     background-color:  #1E1E1E; 
     margin: 0 auto;
 }
@@ -14,20 +14,22 @@
     font-weight:500;
     size:32px;
 }
+
 .outer-block{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
     border-radius: 30px;
     background-color: #c1dcdc;
-    width:65vw;
+    width:100%;
     height:56vh;
 }
 
 
 .home-text{
-    grid-column:1;
-    grid-template-rows: 0.5fr 0.5fr 1fr;
-    display:grid;
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    height:auto;
     margin-left:7%;
     margin-top:7%;
 }
@@ -36,30 +38,36 @@
     display:grid;
     grid-template-columns: 0.3fr 0.1fr 0.3fr;
 }
-.graphic{
-    display:grid;
-    justify-items:center;
-    align-items:flex-end;
-}
 
+.graphic-box{
+    position:relative;
+    display: flex;
+    height:100%;
+    width:50%;
+    align-items: end;
+    justify-content: center;
+ 
+}
 
 #carriedplant{
-    height:513.98px;
-    width:411px;
-    position:absolute;
-    margin-left:5%;
-    z-index:2;
-}
+    position: absolute;
+    width:75%;
+    height:80%;
+    z-index: 2;
+    object-fit: contain;
+}   
 
 .circle{
+    position: absolute; 
     background-color:#1E1E1E;
-    height:400px;
-    width:450px;
+    min-height:300px;
+    min-width:286px;
+    height:75%;
+    width:75%;
     border-radius: 200px 200px 0px 200px;
-    position:absolute;
-    align-self:flex-end;
-    z-index:1;
+    z-index: 1;
 }
+
 
 #slogan{
     margin: 0;

@@ -13,7 +13,7 @@ return(
             </div>
             <SearchBar></SearchBar>
         </div>
-        <div className='graphic'>
+        <div className="graphic-box">
             <div className="circle"></div>
             <img src={"/handplant.png"} alt="hand carrying a plant" id="carriedplant"></img>
         </div>
